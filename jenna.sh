@@ -5,6 +5,6 @@ do
     echo $word
     sleep 1
 done
-sleep 2
+sleep 1
 
 echo "8=======> -.-.-.-.-."
