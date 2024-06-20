@@ -16,7 +16,7 @@ check_exit_status() {
 if grep -q "Debian" $release_file || grep -q "Ubuntu" $release_file || grep -q "Mint" $release_file
 then
     # The host is based on Debian/Ubuntu. Run the apt update command.
-    sudo apt update -y 1>>$success_log 2>>$error_log 
+    sudo apt update -y 1>>$success_log 2>>$error_log
     sudo apt dist-upgrade -y 1>>$success_log 2>>$error_log
     check_exit_status
 
