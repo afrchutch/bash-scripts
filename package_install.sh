@@ -1,6 +1,7 @@
 #!/bin/bash
 
-package=net-tools
+# Don't forget to change the pakage name
+package=package_name_here
 
 if command -v $package
 then
