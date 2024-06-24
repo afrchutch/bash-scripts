@@ -1,6 +1,6 @@
 #!/bin/bash
 
-package=htop
+package=net-tools
 
 if command -v $package
 then
